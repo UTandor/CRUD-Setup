@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 const PORT = 8080;
 const dbUrl =
-  "mongodb+srv://ancrobot2244:deI3RAmjxFgKOgDe@cluster0.bhgwkdm.mongodb.net/test";
+  "mongodb+srv://username:password@cluster0.bhgwkdm.mongodb.net/test";
 
 const Item = require("./models/item");
 
